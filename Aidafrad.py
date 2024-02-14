@@ -22,7 +22,7 @@ entry.pack()
 entry.place(width=300, height=30, x = 127, y = 35)
 button = ttk.Button(text='PON', command=degenerator, style='My.TButton')
 button.place(width=130, height=20)
-window["bg"] = "#6606c7"
+window["bg"] = "#6606c6"
 
 button.pack()
 window.resizable(False, False)
